@@ -429,10 +429,10 @@
   <data name="SaveToFile_CheckIf_SameFilesInDir" xml:space="preserve">
     <value>Directory contains file with the same name, do you want to overwrite it?</value>
   </data>
-  <data name="ButtonSave_Text_ToRussian" xml:space="preserve">
+  <data name="ButtonSave_Text" xml:space="preserve">
     <value>Save</value>
   </data>
-  <data name="ButtonCancel_Text_ToRussian" xml:space="preserve">
+  <data name="ButtonCancel_Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
   <data name="FileChooser_SaveFileTo_Title" xml:space="preserve">

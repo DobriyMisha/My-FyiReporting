@@ -63,18 +63,18 @@ namespace RdlEngine.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
-        public static string ButtonCancel_Text_ToRussian {
+        public static string ButtonCancel_Text {
             get {
-                return ResourceManager.GetString("ButtonCancel_Text_ToRussian", resourceCulture);
+                return ResourceManager.GetString("ButtonCancel_Text", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Save.
         /// </summary>
-        public static string ButtonSave_Text_ToRussian {
+        public static string ButtonSave_Text {
             get {
-                return ResourceManager.GetString("ButtonSave_Text_ToRussian", resourceCulture);
+                return ResourceManager.GetString("ButtonSave_Text", resourceCulture);
             }
         }
         

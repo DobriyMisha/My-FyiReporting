@@ -435,16 +435,17 @@ namespace fyiReporting.RdlGtkViewer
         {
             // *********************************
             object[] param = new object[4];
-            param[0] = Strings.ButtonCancel_Text_ToRussian;
+            param[0] = Strings.ButtonCancel_Text;
             param[1] = Gtk.ResponseType.Cancel;
-            param[2] = Strings.ButtonSave_Text_ToRussian;
+            param[2] = Strings.ButtonSave_Text;
             param[3] = Gtk.ResponseType.Accept;
 
             Gtk.FileChooserDialog fc =
                 new Gtk.FileChooserDialog(Strings.FileChooser_SaveFileTo_Title,
                     null,
 					Gtk.FileChooserAction.Save,
-                    param);
+                    param)
+                { };
 
 			fc.CurrentName = DefaultExportFileName??report.Name;
             
